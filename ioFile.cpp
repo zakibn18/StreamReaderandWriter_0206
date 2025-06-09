@@ -9,4 +9,6 @@ int main()
 
   // membuat objek output file stream dalam mode menulis
   ofstream outFile;
+  // membuka file
+  outFile.open("contohfile.txt");
 }
