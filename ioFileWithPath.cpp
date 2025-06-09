@@ -10,4 +10,7 @@ int main()
 
   cout << "Masukkan nama file : ";
   cin >> NamaFile;
+
+  // Membuka file dalam mode menulis
+  ofstream outfile;
 }
