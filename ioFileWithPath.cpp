@@ -13,4 +13,6 @@ int main()
 
   // Membuka file dalam mode menulis
   ofstream outfile;
+  // mununjuk ke sebuah nama file
+  outfile.open(NamaFile + ".txt", ios::out);
 }
