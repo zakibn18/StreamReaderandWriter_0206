@@ -28,4 +28,7 @@ int main()
   }
   // selesai dalam menulis sekarang tutup filenya
   outfile.close();
+
+  // memubuat objek input file stream dalam mode membaca.
+  ifstream infile;
 }
