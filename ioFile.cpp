@@ -8,9 +8,9 @@ int main()
   string baris;
 
   // membuat objek output file stream dalam mode menulis
-  ofstream outFile;
+  ofstream outfile;
   // membuka file
-  outFile.open("contohfile.txt");
+  outfile.open("contohfile.txt");
 
   cout << ">= Menulis file, \'q\' untuk keluar" << endl;
 
@@ -23,6 +23,8 @@ int main()
     // loop akan berhenti jika anda memasukkan karakter q
     if (baris == "q")
       break;
+    // menulis dan memasukkan nilai dari 'baris' ke dalam file
+    outfile << baris << endl; 
   }
   
 }
